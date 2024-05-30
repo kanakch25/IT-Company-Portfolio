@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Company Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="portfolio-container">
+        <div class="filters">
+            <button class="active" data-filter="all">All</button>
+            <button data-filter="web-development">Web Development</button>
+            <button data-filter="web-design">Web Design</button>
+            <button data-filter="digital-marketing">Digital Marketing</button>
+            <button data-filter="it-consulting">IT Consulting</button>
+            <button data-filter="cloud-services">Cloud Services</button>
+            <button data-filter="cybersecurity">Cybersecurity</button>
+           
+        </div>
+        <div class="sub-filters">
+            <button class="active" data-subfilter="all">All Subcategories</button>
+            <button data-subfilter="corporate-websites">Corporate Websites</button>
+            <button data-subfilter="e-commerce">E-commerce Solutions</button>
+            <button data-subfilter="custom-web-applications">Custom Web Applications</button>
+            <button data-subfilter="seo">SEO Services</button>
+            <button data-subfilter="cloud-migration">Cloud Migration</button>
+            <button data-subfilter="network-security">Network Security</button>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item web-development corporate-websites">
+                <h3>Corporate Website Redesign</h3>
+                <p>Category: Web Development - Corporate Websites</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="portfolio-item web-development e-commerce">
+                <h3>E-commerce Platform</h3>
+                <p>Category: Web Development - E-commerce Solutions</p>
+                <p>Description: Phasellus porta eros at enim molestie, id rutrum ex tristique.</p>
+            </div>
+            <div class="portfolio-item web-design native-ios-apps">
+                <h3>iOS App - E-commerce</h3>
+                <p>Category: Web Design - Native iOS Apps</p>
+                <p>Description: Nulla facilisi. Fusce ac diam vel justo cursus ultricies sed sit amet libero.</p>
+            </div>
+            <div class="portfolio-item web-development custom-web-applications">
+                <h3>CRM System Implementation</h3>
+                <p>Category: Web Development - Custom Web Applications</p>
+                <p>Description: Phasellus iaculis neque ut purus faucibus, ac tincidunt ligula fermentum.</p>
+            </div>
+            <div class="portfolio-item web-design corporate-websites">
+                <h3>Mobile App UI/UX Design</h3>
+                <p>Category: Web Design - Corporate Websites</p>
+                <p>Description: Sed fermentum ligula eget ipsum mollis, non sollicitudin enim finibus.</p>
+            </div>
+            <div class="portfolio-item digital-marketing seo">
+                <h3>SEO Campaign</h3>
+                <p>Category: Digital Marketing - SEO Services</p>
+                <p>Description: Vivamus eget magna non metus luctus vulputate.</p>
+            </div>
+            <div class="portfolio-item it-consulting corporate-websites">
+                <h3>IT Strategy Consulting</h3>
+                <p>Category: IT Consulting - Corporate Websites</p>
+                <p>Description: Sed convallis ex vel mi condimentum tincidunt.</p>
+            </div>
+            <div class="portfolio-item cloud-services cloud-migration">
+                <h3>Cloud Migration Project</h3>
+                <p>Category: Cloud Services - Cloud Migration</p>
+                <p>Description: Integer sed est dapibus, venenatis lorem id, facilisis ipsum.</p>
+            </div>
+            <div class="portfolio-item cybersecurity network-security">
+                <h3>Network Security Audit</h3>
+                <p>Category: Cybersecurity - Network Security</p>
+                <p>Description: Ut rhoncus dui ac eros lobortis, a laoreet risus egestas.</p>
+            </div>
+        </div>
+    </div>
+    <script src="filter.js"></script>
+</body>
+</html>
